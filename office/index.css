@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    height: 600vh;
+}
+
+.header {
+    width: 100px;
+    /* position: relative; */
+    /* display: flex; */
+}
+
+.menu {
+    position: fixed;
+    border: 1px solid green;
+    top: 0px;
+    left: 50px;
+    transition: 1s;
+
+}
+
+.menu img {
+    width: 50px;
+}
+
+.logo {
+    position: fixed;
+    left: -50px;
+    width: 100px;
+    transition: 1s;
+    z-index: 1;
+}
+
+.ul {
+    position: fixed;
+    top: 60px;
+    left: -46px;
+    transition: 1s;
+}
+
+/* .ul:hover {
+    left: 0px;
+    transition: 1s;
+} */
+
+
+
+.add {
+    left: 0px;
+    transition: 1s;
+}
+
+.addmenu {
+    left: 100px;
+    transition: 1s;
+}
+
+.on {
+    left: 0px;
+}
+
+.onmenu {
+    left: 100px;
+}
