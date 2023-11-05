@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="header">
+            <img src="https://imgs.search.brave.com/9slYUH9BsZ56MaOPrAgxFBWSDiTRSDAnodIpGh6-sXg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxOS8w/MS8yMy8yMS8xNi9w/aXhhYmF5LTM5NTEw/NzlfNjQwLnBuZw"
+                alt="" class="logo" id="logo" onmouseenter="add()" onmouseleave="remove()">
+            <div class="menu" onclick="show12()" id="menu">
+                <img src="https://imgs.search.brave.com/_EMj4YUY7EWlTC0BG525K9-qhsvTKTJ4HamxXIfLo_M/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA1LzUxLzk1LzMw/LzM2MF9GXzU1MTk1/MzA1OV9GV3psSG4w/ZFhWOW9TaHBtTG5D/bFRDVjR1S1M1bGRI/cy5qcGc"
+                    alt="" class="">
+            </div>
+        </div>
+
+        <div class="nav">
+            <div onmouseenter="add()" onmouseleave="remove()">
+                <ul id="ul" class="ul">
+                    <li>home1 ICON</li>
+                    <li>home2 ICON</li>
+                    <li>home3 ICON</li>
+                    <li>home4 ICON</li>
+                </ul>
+            </div>
+            <div class="box">
+                <span>hii</span>
+                <img src="https://imgs.search.brave.com/SAlaQR7TPZr4bgxYjNzuhh0mLAWOUplinXyLlUAHd9E/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudGhlbm91bnBy/b2plY3QuY29tL3Bu/Zy8xMDI3MDk3LTIw/MC5wbmc"
+                    alt="">
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="box1" id="box1">
+        <h1>hello</h1>
+    </div>
+
+    <script>
+        function show12() {
+            document.getElementById('ul').classList.toggle('add');
+            document.getElementById('logo').classList.toggle('add');
+            var a = document.getElementById('menu').classList.toggle('addmenu');
+            document.getElementById('box1').classList.toggle('addpage');
+            console.log(a);
+
+        }
+
+        function add() {
+            document.getElementById('logo').classList.add('on');
+            // document.getElementById('menu').classList.add('onmenu');
+            document.getElementById('ul').classList.add('on');
+        }
+        function remove() {
+            document.getElementById('logo').classList.remove('on');
+            // document.getElementById('menu').classList.remove('onmenu');
+            document.getElementById('ul').classList.remove('on');
+        }
+    </script>
+</body>
+
+</html>

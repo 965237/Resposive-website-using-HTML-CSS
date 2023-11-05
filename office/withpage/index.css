@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    height: 600vh;
+    width: 110%;
+    background-color: black;
+    color: white;
+}
+
+.header {
+    width: 100px;
+    /* position: relative; */
+    /* display: flex; */
+}
+
+.menu {
+    position: fixed;
+    /* border: 1px solid green; */
+    top: 0px;
+    left: 50px;
+    transition: 1s;
+
+}
+
+.menu img {
+    width: 50px;
+}
+
+.logo {
+    position: fixed;
+    left: -50px;
+    width: 100px;
+    transition: 1s;
+    z-index: 1;
+    height: 55px;
+}
+
+.ul {
+    position: fixed;
+    top: 55px;
+    left: -46px;
+    transition: 1s;
+    background-color: wheat;
+}
+
+.box {
+    border: 1px solid red;
+    height: 50px;
+    position: fixed;
+    z-index: -1;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    width: calc(90% + 10%);
+}
+
+.box span {
+    text-align: center;
+    margin-left: 50%;
+}
+
+
+.box img {
+    width: 50px;
+    float: right;
+}
+
+
+
+.box1{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    z-index: -6;
+    background-color: red;
+    transition: 1s;
+}
+/* .main{
+    width: 120%;
+    height: 50px;
+    margin-top: 90px;
+    background-color: aqua;
+} */
+
+/* .main .box1{
+
+} */
+
+.add {
+    left: 0px;
+    transition: 1s;
+}
+
+.addmenu {
+    left: 100px;
+    transition: 1s;
+}
+
+.on {
+    left: 0px;
+}
+
+.onmenu {
+    left: 100px;
+}
+
+.addpage{
+    left: 100px;
+    transition: 1s;
+}
